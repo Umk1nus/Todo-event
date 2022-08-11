@@ -1,0 +1,53 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  padding: 20px;
+}
+
+.header a{
+  text-decoration: none;
+}
+
+.todo {
+  max-width: 920px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo__header {
+  padding: 20px;
+}
+
+.input {
+  width: 200px;
+  height: 15px;
+  padding: 10px;
+}
+
+.button {
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: all 0.2s;
+  margin: 0 10px;
+}
+
+.blue {
+  background-color: #9092AB;
+  color: beige;
+}
+
+.yellow {
+  background-color: #FCB663
+}
